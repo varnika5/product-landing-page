@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=""description" content="Studia Microphones"/>
+  <meta name="author" content="Varnika garg"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"
+  <title>Studia Microphones</title>
+</head>
+<body>
+<main class="wrapper">
+  <!--header-->
+  <header class="flex items-center justify-between p-5 md:px-0">
+    <div class="logo">
+      <a href="index.html">
+        <img src="./images/header-logo.svg" alt="studia microphones"/> 
+      </a>
+    </div> 
+    <nav>
+      <ul class="flex">
+        <li class="mx-3"><a href="#">Cameras</a></li>
+        <li><a href="#">Microphones</a></li>
+      </ul>
+    </nav>
+    <div class="cta hidden md:block">
+      <button class="btn-cta">Get In Touch</button>
+    </div>
+  </header>
+
+  <!--showcase-->
+  <section class="showcase flex flex-col-reverse md:grid grid-cols-2 items-center bg-black md:pl-10">
+  <div class="text-white text-center md:text-left p-5">
+    <h3 class="uppercase text-2xl">Featured</h3>
+    <h1 class="font-bold text-4xl mt-10 mb-5">Studia streaming mic</h1>
+    <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi perspiciatis accusamus sit sunt! Omnis.</p>
+    <button class="btn-showcase">Browse Microphones</button>  
+  </div>
+  <div>
+    <img src="./images/hero.jpg" alt="studia hero image" class="w-full h-full"/>
+  </div>
+  </section>
+
+  <!--section2-->
+  <section class="section-2">
+
+    <!--first card-->
+    <div class="cards relative">
+      <div class="overlay-1">
+      <div class="overlay-inner"></div>
+      </div>
+      <article class="absolute bottom-10 text-center text-white p-3">
+        <h3 class="uppercase text-3xl mb-5">Streaming mic</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, illo!</p>
+      </article>
+    </div>
+   <!--second card-->
+    <div class="cards relative">
+      <div class="overlay-2">
+      <div class="overlay-inner"></div>
+      </div>
+      <article class="absolute bottom-10 text-center text-white p-3">
+        <h3 class="uppercase text-3xl mb-5">Youtubing mic</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, illo!</p>
+      </article>
+    </div>
+    
+    <!--third card-->
+    <div class="cards relative">
+      <div class="overlay-3">
+      <div class="overlay-inner"></div>
+      </div>
+      <article class="absolute bottom-10 text-center text-white p-3">
+        <h3 class="uppercase text-3xl mb-5">Recording mic</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, illo!</p>
+      </article>
+    </div>
+  </section>
+  <!--featured-->
+  <section class="featured my-10 grid grid-cols-1 gap-5 px-5 md:grid-cols-2 xl:grid-cols-3 xl:px-0">
+    <div class="mt-5">
+      <img src="./images/featured-1.jpg" alt="" class="w-full"/>
+     <div class="mt-5">
+      <h3 class="font-bold text-2xl mb-3">Camera</h3>
+      <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, minima?</p>
+      <button class="btn-showcase">I want this</button>
+      </div>
+    </div>
+    
+    <div>
+      <img src="./images/featured-2.jpg" alt="" class="w-full"/>
+      <div class="mt-5">
+      <h3 class="font-bold text-2xl mb-3">Microphone</h3>
+      <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, minima?</p>
+      <button class="btn-showcase">I want this</button>
+    </div>
+    </div>
+    
+    <div>
+      <img src="./images/featured-3.jpg" alt="" class="w-full"/>
+      <div class="mt-5">
+      <h3 class="font-bold text-2xl mb-3">Stream deck</h3>
+      <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, minima?</p>
+      <button class="btn-showcase">I want this</button>
+    </div>
+    </div>
+  </section>
+
+   <section class="px-5 pb-10 grid grid-cols-1 gap-5 md:grid-cols-2 md:items-center xl:px-0">
+    <div>
+      <img src="./images/get-yours.jpg" alt=""/>
+    </div>
+    <div>
+      <h3 class="font-bold text-3xl mb-3">Get yours today!</h3>
+      <p class="mb-5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, blanditiis.
+      </p>
+      <button class="btn-showcase">Buy</button>
+    </div>
+   </section>
+</main>
+ 
+<!--footer-->
+<footer class="footer bg-black p-5">
+  <div class="footer-inner flex flex-col items-center justify-center text-center text-white md:flex-row md:justify-between">
+    <div>
+      <img src="./images/footer-logo.svg" alt=""/>
+    </div>
+    <ul class="my-10 md:flex">
+      <li class="mb-3 md:mb-0 md:mx-3"><a href="#">Cameras</a></li>
+      <li><a href="#">Microphones</a></li>
+    </ul>
+    <div>
+      <button class="btn-cta">Get in Touch</button>
+    </div>
+  </div>
+</footer>
+<script src="./app.js"></script>
+
+</body>
+</html> 
